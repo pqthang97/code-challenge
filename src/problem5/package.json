@@ -1,0 +1,35 @@
+{
+  "name": "problem5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "watch": "tsc -w",
+    "serve": "nodemon dist/server.js",
+    "build": "tsc",
+    "dev": "npm-run-all --parallel watch serve",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "thang",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/lodash": "^4.17.20",
+    "@types/node": "^24.6.1",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "knex": "^3.1.0",
+    "lodash": "^4.17.21",
+    "npm-run-all": "^4.1.5",
+    "objection": "^3.1.5",
+    "pg": "^8.16.3"
+  }
+}
